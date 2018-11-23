@@ -20,8 +20,6 @@ def train(X, Y, model, k='rbf', c=1.0, r=0.0, g=1.0, d=3, prob=False, quiet=True
       print('fit model:', f)#, file=sys.stderr)
     with open(model, 'w') as h:
         possv,negsv = 0,0
-        if f.classes_[0] == -1:
-            f.dual_coef_ *= -1
         for alpha in f.dual_coef_[0]:
             if alpha < 0: negsv += 1
             else: possv += 1
