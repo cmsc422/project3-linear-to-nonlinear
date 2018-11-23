@@ -6,11 +6,11 @@ In this project, you will work with perceptrons, support vector machines, and ne
 As usual, we expect you to complete the notebooks in this homework
 and fill in the missing implementations.
 
+Please do not edit function names or parameters as your code will be tested
+using a test harness.
+
 I recommend that you complete notebooks in the following order:
 
 1. Perceptrons
 2. SVMs
 3. Neural networks
-
-Please do not edit function names or parameters as your code will be tested
-using a test harness.
