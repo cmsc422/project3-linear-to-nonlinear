@@ -15,6 +15,10 @@ I recommend that you complete notebooks in the following order:
 2. SVMs
 3. Neural networks
 
-__Updates__
+
+
+We will write clarifications and updates below, so check this page regularly.
+
+__Updates:__
 
 __Nov 24 -__ For the neural network, use tanh as the activation function.
