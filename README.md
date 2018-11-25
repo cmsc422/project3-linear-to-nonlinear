@@ -14,3 +14,6 @@ I recommend that you complete notebooks in the following order:
 1. Perceptrons
 2. SVMs
 3. Neural networks
+
+__Updates__
+__Nov 24 -__ For the neural network, use tanh as the activation function.
