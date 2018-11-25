@@ -21,4 +21,4 @@ We will write clarifications and updates below, so check this page regularly.
 
 __Updates:__
 
-__Nov 24 -__ For the neural network, use tanh as the activation function for the first layer, and your last layer will be a softmax layer. Softmax function is defined [here](https://en.wikipedia.org/wiki/Softmax_function), and here's a quick definition: for each output node i, compute its pre-activation value z_i, take exp(z_i), and divide by the sum of exp(z_j) for all pre-activations z_j in the output layer.
+__Nov 24 -__ For the neural network, use tanh as the activation function for the first layer, and your last layer will be a softmax layer. Softmax function is defined [here](https://en.wikipedia.org/wiki/Softmax_function), and here's a quick definition: for each output node i, compute its pre-activation value z_i, take exp(z_i), and divide it by the sum of exp(z_j) for all pre-activations z_j in the output layer. This is the value we expect you to return for each output.
